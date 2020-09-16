@@ -81,3 +81,22 @@ nav li,
 .header-title .purple {
     color: #C271FF;
 }
+
+/* carrusel
+    ========= */
+
+.style-blockquote {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+@media all and (max-width: 576px) { 
+    .carousel-control-next,
+    .carousel-control-prev {
+        align-items: flex-start;
+    }
+}
+
