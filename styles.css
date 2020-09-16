@@ -1,0 +1,83 @@
+/* Header
+    ========= */
+.header {
+    background-image: url('./images/pic_1.jpg');
+    background-repeat: no-repeat;
+    background-color: #071629;
+    padding: 20px;
+}
+
+.header-title {
+    margin-top: 10rem;
+}
+
+@media all and (max-width: 768px) {
+    .header {
+        background-position: 40% 0%;
+        padding: 20px 4%;
+    }   
+}
+
+@media all and (max-width: 576px) {
+    .header {
+        background-position: 54% 0%;
+        padding: 20px 4%;
+    }   
+    .header-title .title h1 {
+        font-size: 5rem;
+    }
+}
+/* logo
+    ============== */
+
+@media all and (max-width: 576px) {
+    .navbar-brand {
+        margin-right: 35%;
+    }
+    
+    .navbar-brand img{
+
+        display: block;
+        margin: auto;
+        flex-basis: 100%;
+    }
+
+}
+/*  Navbar
+    ==============*/
+nav li,
+.style-letter {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.style-letter {
+    font-size: 1rem;
+}
+
+.list-menu {
+    justify-content: flex-end;
+}
+
+/* button
+    ============= */
+
+.badge-purple {
+    background-color: #C271FF;
+}
+
+.badge-purple:hover {
+    opacity: 0.9;
+}
+
+
+.mt-8 {
+    margin-top: 8rem;
+}
+
+.header-title .purple {
+    color: #C271FF;
+}
