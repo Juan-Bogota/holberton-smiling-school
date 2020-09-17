@@ -12,19 +12,19 @@
 }
 
 @media all and (max-width: 768px) {
-    .header {
+    .header, .header-2 {
         background-position: 40% 0%;
         padding: 20px 4%;
     }   
 }
 
 @media all and (max-width: 576px) {
-    .header {
+    .header, .header-2 {
         background-position: 54% 0%;
         padding: 20px 4%;
     }   
     .header-title .title h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 /* logo
@@ -127,3 +127,11 @@ nav li,
     transform: translate(-50%, -50%);
     opacity: 0.85;
 }
+
+/* Pricing Page
+    ==============*/
+
+.header-2 {
+    background-image: url('./images/pic_2.jpg');
+}
+
