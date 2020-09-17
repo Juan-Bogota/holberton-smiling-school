@@ -78,7 +78,8 @@ nav li,
     margin-top: 8rem;
 }
 
-.header-title .purple {
+.header-title .purple,
+.purple {
     color: #C271FF;
 }
 
@@ -93,10 +94,28 @@ nav li,
     line-height: 34px;
 }
 
+.style-video {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
 @media all and (max-width: 576px) { 
-    .carousel-control-next,
-    .carousel-control-prev {
+    .people .carousel-control-next,
+    .people .carousel-control-prev {
         align-items: flex-start;
     }
 }
 
+/* Smile Section
+    ============*/
+
+.w-smile {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
