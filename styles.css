@@ -1,3 +1,7 @@
+body {
+    font-family: Source Sans Pro;
+}
+
 /* Header
     ========= */
 .header {
@@ -73,6 +77,10 @@ nav li,
     opacity: 0.9;
 }
 
+p.feature {
+    line-height: 34px;
+}
+
 
 .mt-8 {
     margin-top: 8rem;
@@ -133,5 +141,16 @@ nav li,
 
 .header-2 {
     background-image: url('./images/pic_2.jpg');
+    background-repeat: no-repeat;
+    background-color:#071629;
 }
 
+/* button price
+    ===============*/
+.box {
+    width: 162px;
+}
+
+hr {
+    opacity: 0.2;
+}
